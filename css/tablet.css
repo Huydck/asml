@@ -1,0 +1,67 @@
+@media screen and (max-width: 992px) {
+    div.name-2 {
+      display: none;
+    }
+    .section4 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        margin-left: 20px;
+    }
+    .grid-list {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .section-5 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .section5-inf1,
+    .section5-inf2,
+    .section5-inf3{
+        display: flex;
+        flex-direction: column;
+        overflow:hidden;
+    }
+  .section5{
+        margin-left: 10px;
+        margin-right: auto;        
+  } 
+  .section6{
+    margin-left: 10%;
+  }
+  .project{
+    width: auto;
+    position: relative;
+
+  }
+  .project1,
+  .project2,
+  .project3{
+        width: 33%;
+        max-width: 19em;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+  .image{
+      width: auto;
+  }
+  .section-6{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 0;
+    padding-left: 0;
+  }
+  .color{
+    width: 60px;
+    grid-row: 1 / -1;
+  }
+  .td-kc{
+    width:auto;
+}
+.them{
+  align-self: flex-end;
+}
+}

@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    color: #343a40;
+  }
+  
+.section1{
+    position:relative;
+    text-align: center;
+    color: white;
+    
+    margin-bottom: 0;
+}
+.banner{
+    height: 100vh;
+}
+.center{
+    position :absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+/*phần navbar*/
+.section2{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 50px;
+    gap: 30px;
+    position: relative;
+
+}
+.section2 a:hover {
+    color: blue;
+    
+}
+.active{
+    font-size: 18px;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.name-2{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.name{
+   text-align: center;
+}
+.firt-link{
+    align-self:center ;
+    border-left: 1px solid #d8dbdd;
+
+}
+.icon-link{
+    color: blue;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/*phần lí lịch*/
+
+.section-target{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
+    background-color: #ddd;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+.section-info{
+    padding-top: 50px;
+    padding-left: 20px;
+    background-color:#f2f2f2;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+.section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 142px;
+    column-gap: 0;
+}
+.section-title{
+    margin-bottom: 55px;
+}
+.inf{
+    margin-bottom: 20px;
+}
+.icon-facebook{
+	content: '\e9d8';
+}
+
+/*phần thông tin*/
+
+.section4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    margin-bottom: 142px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.exp{
+    border: 1px solid gainsboro;
+    padding: 30px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+.edu{
+    border: 1px solid gainsboro;
+    padding: 30px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+.act{
+    border: 1px solid gainsboro;
+    padding: 30px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+.hoby{
+    border: 1px solid gainsboro;
+    padding: 30px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+.lang{
+    border: 1px solid gainsboro;
+    padding: 30px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+.skill{
+    border: 1px solid gainsboro;
+    padding: 30px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+.section-flex{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-content: space-between;
+}
+.icon-section{
+    height: 45px;
+    width: 45px;
+    justify-self: flex-end;
+}
+h4{
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 10px;
+}
+.italic{
+    font-style: italic;
+    font-size: 14px;
+}
+.grid-list-1{
+    list-style:none;
+
+}
+
+.grid-list{
+    list-style: none;
+    display: flex;
+}
+.icon-hoby{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    stroke: aqua ;
+    border: 1px solid aqua;
+    padding: 5px;
+}
+.sk{
+    background: #6e7174;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+/*phần chứng nhận giải thuowngr*/
+.section5{
+    margin-bottom: 142px;
+    background-color: #f2f2f2;
+    padding-top: 50px;
+}
+.section-5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    align-content: center;
+    margin-left: 10%;
+    row-gap: 30px;
+}
+
+
+.section5-inf1{
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid #d6c08d;
+    padding-bottom: 30px;
+}
+.section5-inf2{
+    display: flex;
+    gap: 40px;
+    border-left: 1px solid #d6c08d;
+    border-bottom: 1px solid #d6c08d;
+    padding-bottom: 30px;
+    padding-left: 30px;
+
+
+}
+.section5-inf3{
+    display: flex;
+    gap: 40px;
+}
+.section5-img{
+height: 150px;
+width: 200px;
+}
+/*phần thông tin*/
+.section6{
+    margin-bottom: 142px;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+.project{
+    display: flex;
+    column-gap: 20px;
+    width: 100%;
+
+}
+.project1{
+    border: 1px solid #d8dbdd;
+    display: flex;
+    flex-direction: column;
+}
+.project2{
+    border: 1px solid #d8dbdd;
+    display: flex;
+    flex-direction: column;
+}
+.project3{
+    border: 1px solid #d8dbdd;
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width: 100%;
+}
+.section-6{
+    display: flex;
+    gap: 20px;
+    border-top: 1px solid #d8dbdd;
+    border-bottom: 1px solid #d8dbdd;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+.color{
+    color: #f2f2f2;
+    background-color: rgb(0, 153, 255);
+    padding: 3px;
+    border-radius: 9px;
+}
+.flex-icon{
+    display: flex;
+    gap: 5px;
+}
+
+.section6-title{
+    padding-left:20px ;
+    padding-top: 10px;
+}
+tr{
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+.td-kc{
+    width: 40%;
+}
+.td-bt{
+    border-bottom:1px solid #d8dbdd;
+
+}
+td{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.them{
+    width: 100%;
+    height: 30px;
+    background-color: lightskyblue;
+    border: none;
+    padding-bottom: 0;
+    cursor: pointer;
+    align-self: flex-end;
+}
+/*phần footer*/
+
+.list-link{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 18px;
+    
+}
+footer{
+    background-color: #f2f2f2;
+    height: 60px;
+}
+.link-footer{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+}
+.footer-icon{
+    height: 24px;
+    width: 24px;
+    stroke:white;
+    background-color: blue;
+    border-radius: 50%;
+    border-bottom: 16px;
+}

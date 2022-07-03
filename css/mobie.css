@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px) {
+    .section2 {
+        display: block;        
+        padding-bottom: 30px;
+        padding-top: 30px;
+        border: none;
+        justify-items: start;
+        align-items:flex-start ;
+        height: auto;
+
+    }
+    .firt-link{
+        margin-bottom: 10px;
+    }
+    .section3 {
+        display: block;
+    }
+    .section-target{
+        padding-bottom: 30px;
+    }
+    .section4{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .section5{
+        margin-left: 20px;
+    }
+    .section-5{
+        display: block;
+        padding-bottom: 30px;
+        
+    }
+    .section5-inf2{
+        border-left: none;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .section5-img{
+      width: auto;
+      max-width: 200px;
+    }
+    .project{
+        display: block;
+    }
+    .project1,
+    .project2,
+    .project3{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .image{
+        width:auto ;
+        max-height: 14em;
+    }
+    .section-6{
+        row-gap: 0;
+        column-gap: 0;
+    }
+    footer{
+        height: auto;
+    }
+    .list-link{
+        justify-content: start;
+        width: auto;
+    }
+    .link-footer{
+        display: block;
+    }
+
+}
